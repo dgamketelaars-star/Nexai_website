@@ -234,16 +234,16 @@ body {
   .hero-accent {
     width: 48px;
     height: 4px;
-    margin: 28px 0 24px;
+    margin: 36px 0 32px;
   }
 
   .hero-content p {
     font-size: 15px;
-    line-height: 1.45;
+    line-height: 1.55;
   }
 
   .primary-button {
-    margin-top: 30px;
+    margin-top: 42px;
     padding: 10px 14px;
     font-size: 13px;
     gap: 8px;
