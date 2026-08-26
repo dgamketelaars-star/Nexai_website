@@ -97,7 +97,7 @@ body {
   background-image: url("assets/images/nexai-solutions-hero.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .hero-inner {
@@ -177,39 +177,21 @@ body {
 
 @media (max-width: 800px) {
 
-  .header-inner {
-    height: 68px;
-    padding: 0 20px;
-  }
-
-  .main-nav {
-    display: none;
-  }
-
-  .logo {
-    font-size: 24px;
-  }
-
-  .header-cta {
-    padding: 10px 15px;
-    font-size: 13px;
-  }
-
-
-  /* eigen mobiele hero-afbeelding */
-
   .hero {
-    min-height: 640px;
+    width: 100%;
+    min-height: 0;
+    aspect-ratio: 5 / 4;
 
     background-image: url("assets/images/nexai-solutions-hero-mobile.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-position: center top;
+    background-size: 100% 100%;
   }
 
   .hero-inner {
-    min-height: 640px;
-
+    width: 100%;
+    height: 100%;
+    min-height: 0;
     padding: 0 24px;
 
     display: flex;
