@@ -180,7 +180,7 @@ body {
   .hero {
     width: 100%;
     min-height: 0;
-    aspect-ratio: 1321 / 991;
+    aspect-ratio: 4 / 3;
 
     background-image: url("assets/images/nexai-solutions-hero-mobile.jpg");
     background-repeat: no-repeat;
