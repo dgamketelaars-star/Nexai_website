@@ -174,18 +174,40 @@ body {
 /* =========================
    MOBIEL
    ========================= */
-
 @media (max-width: 800px) {
-   
+
+  .site-header {
+    width: 100%;
+  }
+
+  .header-inner {
+    height: 76px;
+    padding: 0 20px;
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .header-cta {
+    padding: 11px 17px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
   .hero {
     width: 100%;
     min-height: 0;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 1 / 1;
 
-    background-image: url("assets/images/nexai-solutions-hero-mobile.jpg");
+    background-image: url("assets/images/nexai-solutions-hero-mobile.png");
     background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100% auto;
+    background-position: center center;
+    background-size: cover;
   }
 
   .hero-inner {
@@ -212,7 +234,6 @@ body {
   .hero-accent {
     width: 48px;
     height: 4px;
-
     margin: 20px 0 18px;
   }
 
@@ -223,9 +244,7 @@ body {
 
   .primary-button {
     margin-top: 22px;
-
     padding: 13px 18px;
-
     font-size: 14px;
     gap: 10px;
   }
