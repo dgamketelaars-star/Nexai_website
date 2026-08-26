@@ -30,7 +30,7 @@ body {
 }
 
 .header-inner {
-  max-width: 1280px;
+  max-width: 1400px;
   height: 82px;
   margin: 0 auto;
   padding: 0 40px;
@@ -75,6 +75,7 @@ body {
   justify-content: center;
 
   padding: 12px 21px;
+
   border: 1.5px solid #08275d;
   border-radius: 999px;
 
@@ -86,42 +87,43 @@ body {
 
 
 /* =========================
-   HERO
+   HERO — DESKTOP
    ========================= */
 
 .hero {
+  width: 100%;
   min-height: 650px;
-  overflow: hidden;
-  background:
-    radial-gradient(
-      circle at 73% 50%,
-      rgba(222, 244, 255, 0.48),
-      transparent 36%
-    ),
-    #ffffff;
+
+  background-image: url("assets/images/nexai-solutions-hero.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .hero-inner {
+  width: 100%;
   max-width: 1400px;
   min-height: 650px;
-  margin: 0 auto;
 
-  display: grid;
-  grid-template-columns: 43% 57%;
+  margin: 0 auto;
+  padding: 0 72px;
+
+  display: flex;
   align-items: center;
 }
 
 .hero-content {
   position: relative;
   z-index: 2;
-  padding-left: 72px;
+
+  width: 42%;
+  max-width: 560px;
 }
 
 .hero-content h1 {
-  max-width: 590px;
-
   color: #06245a;
-  font-size: clamp(52px, 5vw, 78px);
+
+  font-size: clamp(52px, 5vw, 76px);
   line-height: 0.98;
   letter-spacing: -3px;
   font-weight: 800;
@@ -130,6 +132,7 @@ body {
 .hero-accent {
   width: 70px;
   height: 5px;
+
   margin: 30px 0 28px;
 
   border-radius: 10px;
@@ -138,6 +141,7 @@ body {
 
 .hero-content p {
   color: #173766;
+
   font-size: 22px;
   line-height: 1.55;
 }
@@ -168,31 +172,6 @@ body {
 
 
 /* =========================
-   HERO VISUAL
-   ========================= */
-
-.hero-visual {
-  align-self: stretch;
-  position: relative;
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.hero-visual img {
-  width: 125%;
-  max-width: none;
-  height: 100%;
-
-  object-fit: cover;
-  object-position: center right;
-
-  display: block;
-}
-
-
-/* =========================
    MOBIEL
    ========================= */
 
@@ -216,50 +195,60 @@ body {
     font-size: 13px;
   }
 
+
+  /* eigen mobiele hero-afbeelding */
+
   .hero {
-    min-height: auto;
+    min-height: 640px;
+
+    background-image: url("assets/images/nexai-solutions-hero-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
   }
 
   .hero-inner {
-    min-height: auto;
+    min-height: 640px;
+
+    padding: 0 24px;
+
     display: flex;
-    flex-direction: column;
+    align-items: center;
   }
 
   .hero-content {
-    width: 100%;
-    padding: 54px 24px 15px;
+    width: 47%;
+    max-width: none;
   }
 
   .hero-content h1 {
-    max-width: 500px;
-    font-size: clamp(46px, 13vw, 66px);
-    letter-spacing: -2px;
+    font-size: clamp(31px, 8.5vw, 44px);
+    line-height: 1;
+    letter-spacing: -1.5px;
   }
 
   .hero-accent {
-    margin: 24px 0 22px;
+    width: 48px;
+    height: 4px;
+
+    margin: 20px 0 18px;
   }
 
   .hero-content p {
-    font-size: 19px;
+    font-size: 16px;
+    line-height: 1.45;
   }
 
   .primary-button {
-    margin-top: 27px;
+    margin-top: 22px;
+
+    padding: 13px 18px;
+
+    font-size: 14px;
+    gap: 10px;
   }
 
-  .hero-visual {
-    width: 100%;
-    height: 390px;
-  }
-
-  .hero-visual img {
-    width: 150%;
-    height: 100%;
-    margin-left: -30%;
-
-    object-fit: cover;
-    object-position: center right;
+  .primary-button span {
+    font-size: 19px;
   }
 }
