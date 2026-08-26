@@ -204,7 +204,7 @@ body {
     min-height: 0;
     aspect-ratio: 1 / 1;
 
-    background-image: url("assets/images/nexai-solutions-hero-mobile.jpeg");
+    background-image: url("assets/images/nexai_solutions_hero_mobile.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -226,9 +226,9 @@ body {
   }
 
   .hero-content h1 {
-    font-size: clamp(31px, 8.5vw, 44px);
-    line-height: 1;
-    letter-spacing: -1.5px;
+    font-size: clamp(28px, 7.5vw, 38px);
+    line-height: 1.03;
+    letter-spacing: -1.2px;
   }
 
   .hero-accent {
@@ -238,7 +238,7 @@ body {
   }
 
   .hero-content p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.45;
   }
 
