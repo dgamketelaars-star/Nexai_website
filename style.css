@@ -176,16 +176,16 @@ body {
    ========================= */
 
 @media (max-width: 800px) {
-
+   
   .hero {
     width: 100%;
     min-height: 0;
-    aspect-ratio: 5 / 4;
+    aspect-ratio: 1321 / 991;
 
     background-image: url("assets/images/nexai-solutions-hero-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 100% 100%;
+    background-size: 100% auto;
   }
 
   .hero-inner {
