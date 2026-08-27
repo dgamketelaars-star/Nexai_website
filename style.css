@@ -342,8 +342,14 @@ body {
     padding: 64px 30px 72px;
   }
 
+   .intro-inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
    .intro-inner h2 {
-    margin-bottom: 28px;
+    margin: 0 auto 34px;
     font-size: 26px;
     line-height: 1.15;
     letter-spacing: -0.5px;
@@ -351,50 +357,22 @@ body {
   }
 
    .intro-hook {
-    margin-bottom: 18px;
+    margin: 0 auto 32px;
+    max-width: 600px;
     font-size: 17px;
     line-height: 1.6;
-    font-weight: 600;
-    text-align: left;
-  }
-
-   .intro-more summary {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-
-    color: #0b3473;
-    font-size: 15px;
     font-weight: 700;
-
-    cursor: pointer;
-    list-style: none;
+    text-align: center;
   }
 
-   .intro-more summary::-webkit-details-marker {
-    display: none;
-  }
-
-   .intro-more summary span {
-    color: #ff8500;
-    transition: transform 0.2s ease;
-  }
-
-   .intro-more[open] summary span {
-    transform: rotate(180deg);
-  }
-
-   .intro-more:not([open]) .intro-extra {
-    display: none;
-  }
-
-   .intro-extra {
-    margin-top: 18px;
-  }
-
-   .intro-extra p {
+   .intro-text {
+    margin: 0 auto;
+    max-width: 600px;
     font-size: 16px;
     line-height: 1.65;
-    text-align: left;
+    font-weight: 400;
+    text-align: center;
   }
+
+
 }
