@@ -174,45 +174,34 @@ body {
    INTRODUCTIE
 ========================= */
 
-   .intro-section {
-    padding: 72px 24px 64px;
-  }
+   intro-section {
+    padding: 52px 24px;
+}
 
-  .intro-inner {
-    width: 100%;
-    max-width: 760px;
+.intro-inner {
+    max-width: 600px;
     margin: 0 auto;
-    text-align: center;
-  }
+}
 
-   .intro-closing {
-    max-width: 700px;
-    margin: 18px auto 0;
-    font-size: 17px;
-    line-height: 1.5;
-    font-weight: 700;
-  }
-
-   .intro-inner h2 {
+.intro-inner h2 {
     margin: 0 0 24px;
     font-size: 30px;
     line-height: 1.15;
-  }
+    text-align: center;
+}
 
-   .intro-hook {
-    max-width: 720px;
-    margin: 0 auto 18px;
+.intro-text {
+    margin: 0;
     font-size: 18px;
-    line-height: 1.5;
-    font-weight: 700;
-  }
+    line-height: 1.7;
+    text-align: left;
+}
 
-   .intro-text {
-    max-width: 760px;
-    margin: 0 auto;
-    font-size: 17px;
-    line-height: 1.55;
-  }
+.intro-text br {
+    display: block;
+    content: "";
+    margin-top: 10px;
+}
 
 /* =========================
    MOBIEL
@@ -329,34 +318,20 @@ body {
 ========================= */
 
    .intro-section {
-    padding: 48px 28px 52px;
-  }
+        padding: 42px 32px 46px;
+    }
 
-   .intro-inner h2 {
-    margin: 0 0 24px;
-    font-size: 22px;
-    line-height: 1.2;
-  }
+    .intro-inner h2 {
+        margin-bottom: 22px;
+        font-size: 25px;
+    }
 
-   .intro-closing {
-    margin: 18px auto 0;
-    font-size: 15px;
-    line-height: 1.5;
-    font-weight: 700;
-  }
+    .intro-text {
+        font-size: 17px;
+        line-height: 1.65;
+    }
 
-   .intro-hook {
-    margin: 0 auto 20px;
-    font-size: 15px;
-    line-height: 1.5;
-    font-weight: 700;
-  }
-
-   .intro-text {
-    margin: 0 auto;
-    font-size: 15px;
-    line-height: 1.55;
-  }
-
-
+    .intro-text br {
+        margin-top: 8px;
+    }
 }
