@@ -244,14 +244,12 @@ body {
   }
 
   .primary-button {
-    margin-top: 24px;
-    padding: 10px 14px;
-    font-size: 13px;
-    gap: 8px;
-    transform: none;
+    padding: 9px 12px;
+    font-size: 12px;
+    gap: 7px;
   }
 
    .primary-button span {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
