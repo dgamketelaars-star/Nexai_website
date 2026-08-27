@@ -223,7 +223,7 @@ body {
   .hero-content {
     width: 72%;
     max-width: none;
-    transform: translateY(-32px);
+    transform: translateY(10px);
   }
 
   .hero-content h1 {
