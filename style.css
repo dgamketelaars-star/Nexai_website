@@ -170,7 +170,7 @@ body {
   font-size: 22px;
 }
 
-/* =========================
+ /* =========================
    INTRODUCTIE
 ========================= */
 
@@ -183,7 +183,6 @@ body {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .intro-inner h2 {
@@ -194,15 +193,35 @@ body {
     font-size: 42px;
     line-height: 1.1;
     letter-spacing: -1px;
+    text-align: center;
 }
 
-.intro-inner p {
+.intro-hook {
+    margin: 0 auto 22px;
+    max-width: 820px;
+
+    color: #17365f;
+    font-size: 19px;
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+.intro-extra p {
     margin: 0 auto;
     max-width: 820px;
 
     color: #17365f;
     font-size: 19px;
     line-height: 1.7;
+}
+
+/* Desktop: alles zichtbaar, geen Lees meer */
+.intro-more summary {
+    display: none;
+}
+
+.intro-more:not([open]) .intro-extra {
+    display: block;
 }
 
 /* =========================
@@ -314,8 +333,9 @@ body {
     top: 3px;
   }
 
-   /* =========================
-   INTRODUCTIE
+   
+/* =========================
+   INTRODUCTIE — MOBIEL
 ========================= */
 
    .intro-section {
@@ -323,14 +343,56 @@ body {
   }
 
    .intro-inner h2 {
-    margin-bottom: 22px;
+    margin-bottom: 28px;
     font-size: 26px;
     line-height: 1.15;
     letter-spacing: -0.5px;
     text-align: center;
   }
 
-   .intro-inner p {
+   .intro-hook {
+    margin-bottom: 18px;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 600;
+    text-align: left;
+  }
+
+   .intro-more summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    color: #0b3473;
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+    list-style: none;
+  }
+
+   .intro-more summary::-webkit-details-marker {
+    display: none;
+  }
+
+   .intro-more summary span {
+    color: #ff8500;
+    transition: transform 0.2s ease;
+  }
+
+   .intro-more[open] summary span {
+    transform: rotate(180deg);
+  }
+
+   .intro-more:not([open]) .intro-extra {
+    display: none;
+  }
+
+   .intro-extra {
+    margin-top: 18px;
+  }
+
+   .intro-extra p {
     font-size: 16px;
     line-height: 1.65;
     text-align: left;
