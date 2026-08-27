@@ -319,7 +319,7 @@ body {
 ========================= */
 
    .intro-section {
-    padding: 64px 38px 72px;
+    padding: 64px 30px 72px;
   }
 
    .intro-inner {
@@ -331,10 +331,12 @@ body {
     font-size: 26px;
     line-height: 1.15;
     letter-spacing: -0.5px;
+    text-align: center;
   }
 
    .intro-inner p {
     font-size: 16px;
     line-height: 1.65;
+    text-aligm: left;
   }
 }
