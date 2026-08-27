@@ -230,6 +230,7 @@ body {
     font-size: clamp(28px, 7.5vw, 38px);
     line-height: 1.03;
     letter-spacing: -1.2px;
+    transform: translateY(-6px);
   }
 
   .hero-accent {
