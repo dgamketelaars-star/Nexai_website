@@ -174,34 +174,24 @@ body {
    INTRODUCTIE
 ========================= */
 
-   intro-section {
-    padding: 52px 24px;
-}
+   .intro-section {
+        padding: 44px 32px 48px;
+    }
 
-.intro-inner {
-    max-width: 600px;
-    margin: 0 auto;
-}
+    .intro-inner {
+        max-width: 760px;
+    }
 
-.intro-inner h2 {
-    margin: 0 0 24px;
-    font-size: 30px;
-    line-height: 1.15;
-    text-align: center;
-}
+    .intro-inner h2 {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
 
-.intro-text {
-    margin: 0;
-    font-size: 18px;
-    line-height: 1.7;
-    text-align: left;
-}
-
-.intro-text br {
-    display: block;
-    content: "";
-    margin-top: 10px;
-}
+    .intro-text {
+        max-width: 680px;
+        font-size: 17px;
+        line-height: 1.55;
+    }
 
 /* =========================
    MOBIEL
@@ -316,23 +306,31 @@ body {
 /* =========================
    INTRODUCTIE — MOBIEL
 ========================= */
-
    .intro-section {
-        padding: 42px 32px 46px;
-    }
+    padding: 42px 24px 46px;
+  }
 
-    .intro-inner h2 {
-        margin-bottom: 22px;
-        font-size: 24px;
-    }
+   .intro-inner {
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+  }
 
-    .intro-text {
-        font-size: 16px;
-        line-height: 1.65;
-        text-align: center;
-    }
+   .intro-inner h2 {
+    margin: 0 0 24px;
+    font-size: 24px;
+    line-height: 1.15;
+  }
 
-    .intro-text br {
-        margin-top: 8px;
-    }
+   .intro-text {
+    max-width: 540px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+   .intro-lead {
+    line-height: 1.5;
+}
 }
