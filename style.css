@@ -170,6 +170,39 @@ body {
   font-size: 22px;
 }
 
+/* =========================
+   INTRODUCTIE
+========================= */
+
+.intro-section {
+    background: #ffffff;
+    padding: 100px 24px 110px;
+}
+
+.intro-inner {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.intro-inner h2 {
+    margin: 0 0 28px;
+    max-width: 700px;
+
+    color: #0b3473;
+    font-size: clamp(38px, 4vw, 58px);
+    line-height: 1.05;
+    letter-spacing: -1.5px;
+}
+
+.intro-inner p {
+    margin: 0;
+    max-width: 850px;
+
+    color: #17365f;
+    font-size: 20px;
+    line-height: 1.7;
+}
 
 /* =========================
    MOBIEL
@@ -278,5 +311,30 @@ body {
     transform: rotate(45deg);
     right: 0;
     top: 3px;
+  }
+
+   /* =========================
+   INTRODUCTIE
+========================= */
+
+   .intro-section {
+    padding: 72px 38px 78px;
+  }
+
+   .intro-inner {
+    max-width: none;
+  }
+
+   .intro-inner h2 {
+    margin-bottom: 24px;
+
+    font-size: 32px;
+    line-height: 1.08;
+    letter-spacing: -0.8px;
+  }
+
+   .intro-inner p {
+    font-size: 17px;
+    line-height: 1.65;
   }
 }
