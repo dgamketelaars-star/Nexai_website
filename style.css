@@ -221,16 +221,15 @@ body {
   }
 
   .hero-content {
-    width: 47%;
+    width: 58%;
     max-width: none;
     transform: translateY(10px);
   }
 
-  .hero-content h1 {
-    font-size: clamp(28px, 7.5vw, 38px);
+   .hero-content h1 {
+    font-size: clamp(26px, 6.2vw, 34px);
     line-height: 1.03;
     letter-spacing: -1.2px;
-    transform: translateY(-6px);
   }
 
   .hero-accent {
