@@ -223,11 +223,11 @@ body {
   .hero-content {
     width: 64%;
     max-width: none;
-    transform: translateY(10px);
+    transform: translateY(-22px);
   }
 
-   .hero-content h1 {
-    font-size: clamp(26px, 6.2vw, 34px);
+  .hero-content h1 {
+    font-size: clamp(28px, 6.8vw, 37px);
     line-height: 1.03;
     letter-spacing: -1.2px;
   }
