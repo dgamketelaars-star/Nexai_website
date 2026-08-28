@@ -260,7 +260,6 @@ body {
     background-color: #f7f8fb;
   }
 
-   }
 
   .hero {
     width: 100%;
@@ -291,53 +290,52 @@ body {
     z-index: 2;
   }
 
-  .hero-inner {
+  .hero-.hero-inner {
     width: 100%;
     height: 100%;
     min-height: 0;
     padding: 0 24px;
 
     display: flex;
-    align-items: center;
-  }
+    align-items: flex-start;
+}
 
-  .hero-content {
+.hero-content {
     width: 85%;
     max-width: none;
+    padding-top: 72px;
     transform: none;
-  }
+}
 
-/* Titel duidelijk hoger */
-  .hero-content h1 {
+.hero-content h1 {
     font-size: 38px;
     line-height: 1.01;
     letter-spacing: -1.5px;
-    transform: translateY(-25px); /* was -72px */
-  }
+    transform: none;
+    margin: 0;
+}
 
-/* Oranje streep opnieuw tussen titel en tekst plaatsen */
-  .hero-accent {
+.hero-accent {
     width: 48px;
     height: 4px;
-    margin: 0 0 22px;
-    transform: translateY(-30px); /* was -45px */
-  }
+    margin: 28px 0 0;
+    transform: none;
+}
 
-/* Tekst iets omhoog, maar veel minder dan de titel */
-  .hero-content p {
-    width: 170px;
+.hero-content p {
+    width: 155px;
+    margin: 34px 0 0;
     font-size: 18px;
     line-height: 1.45;
-    transform: translateY(-18px);
-  }
+    transform: none;
+}
 
-/* CTA bewust NIET verplaatsen */
-  .primary-button {
-    margin-top: 20px;
+.primary-button {
+    margin-top: 30px;
     padding: 11px 17px;
     font-size: 14px;
     gap: 10px;
-  }
+}
 
    .primary-button span {
     font-size: 0;
