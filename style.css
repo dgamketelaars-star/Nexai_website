@@ -272,12 +272,10 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-
-    background: rgba(235, 246, 255, 0.05);
-
+    background: rgba(225, 242, 255, 0.10);
     pointer-events: none;
     z-index: 1;
-  }
+   }
 
    .hero-inner {
     position: relative;
