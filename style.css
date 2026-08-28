@@ -341,15 +341,17 @@ body {
 
 
 .intro-section {
-    padding: 44px 20px 46px;
-    background:
-        linear-gradient(
-            180deg,
-            #f5f8fc 0%,
-            #f8fbfd 35%,
-            #ffffff 100%
-        );
+    position: relative;
+    padding: 70px 20px 46px;
+    margin-top: -26px;
 
+    background: linear-gradient(
+        180deg,
+        rgba(241, 243, 248, 0) 0%,
+        #f3f5f9 26px,
+        #f7f9fc 45%,
+        #ffffff 100%
+    );
 }
 
 .intro-inner {
