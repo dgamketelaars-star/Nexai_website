@@ -174,24 +174,56 @@ body {
    INTRODUCTIE
 ========================= */
 
-   .intro-section {
-        padding: 44px 32px 48px;
-    }
+.intro-section {
+    padding: 56px 32px 52px;
+}
 
-    .intro-inner {
-        max-width: 760px;
-    }
+.intro-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 38px 40px 40px;
 
-    .intro-inner h2 {
-        margin-bottom: 20px;
-        font-size: 28px;
-    }
+    background:
+        radial-gradient(
+            circle at 0% 0%,
+            rgba(76, 213, 235, 0.13) 0%,
+            rgba(76, 213, 235, 0.05) 25%,
+            rgba(255, 255, 255, 0) 52%
+        ),
+        rgba(255, 255, 255, 0.96);
 
-    .intro-text {
-        max-width: 680px;
-        font-size: 17px;
-        line-height: 1.55;
-    }
+    border: 1px solid rgba(8, 39, 93, 0.10);
+    border-radius: 28px;
+
+    box-shadow:
+        0 16px 38px rgba(8, 39, 93, 0.08);
+
+    text-align: left;
+}
+
+.intro-inner h2 {
+    margin: 0 0 22px;
+
+    color: #08275d;
+    font-size: 32px;
+    line-height: 1.12;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.intro-inner h2 span {
+    color: #ff8500;
+}
+
+.intro-text {
+    max-width: 680px;
+    margin: 0;
+
+    color: #173766;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+}
 
 /* =========================
    MOBIEL
@@ -249,9 +281,9 @@ body {
   }
 
   .hero-content h1 {
-    font-size: 30px;
-    line-height: 1.03;
-    letter-spacing: -1.2px;
+    font-size: 35px;
+    line-height: 1.02;
+    letter-spacing: -1.4px;
   }
 
   .hero-accent {
@@ -306,32 +338,52 @@ body {
 /* =========================
    INTRODUCTIE — MOBIEL
 ========================= */
-   .intro-section {
-    padding: 42px 24px 46px;
-  }
 
-   .intro-inner {
-    max-width: 620px;
-    margin: 0 auto;
-    text-align: center;
-  }
 
-   .intro-inner h2 {
-    margin: 0 0 24px;
-    font-size: 24px;
-    line-height: 1.15;
-  }
-
-   .intro-text {
-    width: 78%;
-    max-width: 520px;
-    margin: 0 auto;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: left;
-  }
-
-   .intro-lead {
-    line-height: 1.5;
+.intro-section {
+    padding: 44px 20px 46px;
 }
+
+.intro-inner {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 30px 24px 32px;
+
+    background:
+        radial-gradient(
+            circle at 0% 0%,
+            rgba(76, 213, 235, 0.16) 0%,
+            rgba(76, 213, 235, 0.06) 28%,
+            rgba(255, 255, 255, 0) 55%
+        ),
+        rgba(255, 255, 255, 0.97);
+
+    border: 1px solid rgba(8, 39, 93, 0.10);
+    border-radius: 28px;
+
+    box-shadow:
+        0 14px 32px rgba(8, 39, 93, 0.09);
+
+    text-align: left;
+}
+
+.intro-inner h2 {
+    margin: 0 0 22px;
+
+    font-size: 30px;
+    line-height: 1.12;
+    letter-spacing: -1px;
+}
+
+.intro-text {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+
+    font-size: 18px;
+    line-height: 1.65;
+    text-align: left;
+}
+    
 }
