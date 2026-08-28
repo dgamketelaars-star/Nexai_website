@@ -275,18 +275,18 @@ body {
   }
 
   .hero-content {
-    width: 72%;
+    width: 78%;
     max-width: none;
     transform: translateY(-5px);
   }
 
-  .hero-content h1 {
-    font-size: 35px;
-    line-height: 1.02;
-    letter-spacing: -1.4px;
+   .hero-content h1 {
+    font-size: 38px;
+    line-height: 1.01;
+    letter-spacing: -1.5px;
   }
 
-  .hero-accent {
+   .hero-accent {
     width: 48px;
     height: 4px;
     margin: 24px 0 22px;
