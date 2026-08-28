@@ -254,6 +254,15 @@ body {
   }
 
   .hero {
+    padding-top: 30px;
+    box-sizing: content-box;
+
+    background-color: #f7f8fb;
+  }
+
+   }
+
+  .hero {
     width: 100%;
     min-height: 0;
     aspect-ratio: 4 / 3 ;
