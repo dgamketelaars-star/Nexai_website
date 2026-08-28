@@ -312,7 +312,7 @@ body {
     font-size: 38px;
     line-height: 1.01;
     letter-spacing: -1.5px;
-    transform: translateY(-52px); /* was -72px */
+    transform: translateY(-25px); /* was -72px */
   }
 
 /* Oranje streep opnieuw tussen titel en tekst plaatsen */
