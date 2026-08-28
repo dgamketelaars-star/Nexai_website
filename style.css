@@ -342,6 +342,12 @@ body {
 
 .intro-section {
     padding: 44px 20px 46px;
+    background:
+        linear-gradient(
+            180deg,
+            #f5f8fc 0%,
+            #f8fbfd 35%,
+            #ffffff 100%
 }
 
 .intro-inner {
