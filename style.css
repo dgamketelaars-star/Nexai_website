@@ -325,17 +325,18 @@ body {
 
 /* Tekst iets omhoog, maar veel minder dan de titel */
   .hero-content p {
-    font-size: 15px;
-    line-height: 1.55;
-    transform: translateY(-28px);
+    width: 170px;
+    font-size: 18px;
+    line-height: 1.45;
+    transform: translateY(-18px);
   }
 
 /* CTA bewust NIET verplaatsen */
   .primary-button {
     margin-top: 20px;
-    padding: 9px 12px;
-    font-size: 12px;
-    gap: 7px;
+    padding: 11px 17px;
+    font-size: 14px;
+    gap: 10px;
   }
 
    .primary-button span {
