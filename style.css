@@ -376,14 +376,16 @@ body {
     letter-spacing: -1px;
 }
 
-.intro-text {
+ .intro-text {
     width: 100%;
     max-width: none;
     margin: 0;
 
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.65;
+    font-weight: 400;
+    color: #5f6f82;
     text-align: left;
-}
+ }
     
 }
