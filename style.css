@@ -312,7 +312,7 @@ body {
     font-size: 38px;
     line-height: 1.01;
     letter-spacing: -1.5px;
-    transform: translateY(-42px);
+    transform: translateY(-72px);
   }
 
 /* Oranje streep opnieuw tussen titel en tekst plaatsen */
@@ -320,14 +320,14 @@ body {
     width: 48px;
     height: 4px;
     margin: 0 0 22px;
-    transform: translateY(-20px);
+    transform: translateY(-45px);
   }
 
 /* Tekst iets omhoog, maar veel minder dan de titel */
   .hero-content p {
     font-size: 15px;
     line-height: 1.55;
-    transform: translateY(-12px);
+    transform: translateY(-28px);
   }
 
 /* CTA bewust NIET verplaatsen */
