@@ -304,27 +304,35 @@ body {
   .hero-content {
     width: 85%;
     max-width: none;
-    transform: translateY(-5px);
+    transform: none;
   }
 
-   .hero-content h1 {
+/* Titel duidelijk hoger */
+  .hero-content h1 {
     font-size: 38px;
     line-height: 1.01;
     letter-spacing: -1.5px;
+    transform: translateY(-42px);
   }
 
-   .hero-accent {
+/* Oranje streep opnieuw tussen titel en tekst plaatsen */
+  .hero-accent {
     width: 48px;
     height: 4px;
-    margin: 24px 0 22px;
+    margin: 0 0 22px;
+    transform: translateY(-20px);
   }
 
+/* Tekst iets omhoog, maar veel minder dan de titel */
   .hero-content p {
     font-size: 15px;
     line-height: 1.55;
+    transform: translateY(-12px);
   }
 
+/* CTA bewust NIET verplaatsen */
   .primary-button {
+    margin-top: 20px;
     padding: 9px 12px;
     font-size: 12px;
     gap: 7px;
