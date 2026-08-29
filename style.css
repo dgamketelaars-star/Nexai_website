@@ -318,20 +318,20 @@ body {
 .hero-accent {
     width: 48px;
     height: 4px;
-    margin: 28px 0 0;
+    margin: 20px 0 0;
     transform: none;
 }
 
 .hero-content p {
     width: 155px;
-    margin: 34px 0 0;
+    margin: 24px 0 0;
     font-size: 18px;
     line-height: 1.45;
     transform: none;
 }
 
 .primary-button {
-    margin-top: 30px;
+    margin-top: 22px;
     padding: 11px 17px;
     font-size: 14px;
     gap: 10px;
