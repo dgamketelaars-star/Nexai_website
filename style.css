@@ -334,6 +334,10 @@ body {
     letter-spacing: -0.5px;
     transform: none;
 }
+   
+   .hero-emphasis {
+    font-weight: 500;
+   }
 
    .hero-text-gap {
     display: block;
