@@ -318,12 +318,12 @@ body {
 .hero-accent {
     width: 48px;
     height: 4px;
-    margin: 4px 0 0;
+    margin: 3px 0 0;
     transform: none;
 }
 
 .hero-content p {
-    margin: 27px 0 0;
+    margin: 25px 0 0;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.12;
