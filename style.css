@@ -16,7 +16,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #08275d;
   background: #ffffff;
-  overflow-x: hidden;
 }
 
 
@@ -31,7 +30,6 @@ body {
 }
 
 .header-inner {
-  width: 100%;
   max-width: 1400px;
   height: 82px;
   margin: 0 auto;
@@ -172,72 +170,65 @@ body {
   font-size: 22px;
 }
 
-
-/* =========================
-   INTRODUCTIE — DESKTOP
-   ========================= */
+ /* =========================
+   INTRODUCTIE
+========================= */
 
 .intro-section {
-  padding: 56px 32px 52px;
-  background: #ffffff;
+    padding: 56px 32px 52px;
 }
 
 .intro-inner {
-  width: 100%;
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 38px 40px 40px;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 38px 40px 40px;
 
-  background:
-    radial-gradient(
-      circle at 0% 0%,
-      rgba(76, 213, 235, 0.13) 0%,
-      rgba(76, 213, 235, 0.05) 25%,
-      rgba(255, 255, 255, 0) 52%
-    ),
-    rgba(255, 255, 255, 0.96);
+    background:
+        radial-gradient(
+            circle at 0% 0%,
+            rgba(76, 213, 235, 0.13) 0%,
+            rgba(76, 213, 235, 0.05) 25%,
+            rgba(255, 255, 255, 0) 52%
+        ),
+        rgba(255, 255, 255, 0.96);
 
-  border: 1px solid rgba(8, 39, 93, 0.10);
-  border-radius: 28px;
+    border: 1px solid rgba(8, 39, 93, 0.10);
+    border-radius: 28px;
 
-  box-shadow: 0 16px 38px rgba(8, 39, 93, 0.08);
+    box-shadow:
+        0 16px 38px rgba(8, 39, 93, 0.08);
 
-  text-align: left;
+    text-align: left;
 }
 
 .intro-inner h2 {
-  margin: 0 0 22px;
+    margin: 0 0 22px;
 
-  color: #08275d;
-  font-size: 32px;
-  line-height: 1.12;
-  font-weight: 800;
-  letter-spacing: -1px;
+    color: #08275d;
+    font-size: 32px;
+    line-height: 1.12;
+    font-weight: 800;
+    letter-spacing: -1px;
 }
 
 .intro-inner h2 span {
-  color: #ff8500;
+    color: #ff8500;
 }
 
 .intro-text {
-  width: 100%;
-  max-width: 680px;
-  margin: 0;
+    max-width: 680px;
+    margin: 0;
 
-  color: #173766;
-  font-size: 18px;
-  line-height: 1.7;
-  font-weight: 400;
+    color: #173766;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
 }
-
 
 /* =========================
    MOBIEL
    ========================= */
-
 @media (max-width: 800px) {
-
-  /* ---------- HEADER ---------- */
 
   .site-header {
     width: 100%;
@@ -262,205 +253,183 @@ body {
     white-space: nowrap;
   }
 
-
-  /* ---------- HERO ---------- */
-
   .hero {
-    position: relative;
-
-    width: 100%;
-    min-height: clamp(610px, 155vw, 680px);
-    padding: 0;
+    padding-top: 60px;
+    box-sizing: content-box;
 
     background-color: #f7f8fb;
-    background-image: url("assets/images/nexai-hero-mobile (1).jpeg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100% 100%;
-
-    overflow: hidden;
   }
 
-  .hero::after {
+
+  .hero {
+    width: 100%;
+    min-height: 0;
+    aspect-ratio: 4 / 3 ;
+
+    background-image: url("assets/images/nexai-hero-mobile (1).jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+  }
+
+   .hero {
+    position: relative;
+  }
+
+   .hero::after {
     content: "";
     position: absolute;
     inset: 0;
-
     background: rgba(225, 242, 255, 0.10);
-
     pointer-events: none;
     z-index: 1;
-  }
+   }
 
-  .hero-inner {
+   .hero-inner {
     position: relative;
     z-index: 2;
+  }
 
+  .hero-.hero-inner {
     width: 100%;
-    max-width: none;
-    min-height: clamp(610px, 155vw, 680px);
-    margin: 0;
+    height: 100%;
+    min-height: 0;
     padding: 0 24px;
 
     display: flex;
     align-items: flex-start;
-  }
+}
 
-  .hero-content {
-    width: min(86%, 340px);
+.hero-content {
+    width: 85%;
     max-width: none;
-
-    padding-top: clamp(265px, 68vw, 340px);
-
+    padding-top: 72px;
     transform: none;
-  }
+}
 
-  .hero-content h1 {
-    margin: 0;
-
-    color: #06245a;
-    font-size: clamp(36px, 9.8vw, 42px);
+.hero-content h1 {
+    font-size: 38px;
     line-height: 1.01;
-    letter-spacing: -1.6px;
-    font-weight: 800;
-
+    letter-spacing: -1.5px;
     transform: none;
-  }
+    margin: 0;
+}
 
-  .hero-accent {
+.hero-accent {
     width: 48px;
     height: 4px;
-
-    margin: 26px 0 0;
-
-    border-radius: 10px;
-    background: #ff8500;
-
+    margin: 28px 0 0;
     transform: none;
-  }
+}
 
-  .hero-content p {
-    width: 170px;
-    margin: 30px 0 0;
-
-    color: #173766;
+.hero-content p {
+    width: 155px;
+    margin: 34px 0 0;
     font-size: 18px;
-    line-height: 1.42;
-    font-weight: 400;
-
+    line-height: 1.45;
     transform: none;
-  }
+}
 
-  .primary-button {
-    margin-top: 26px;
-    padding: 12px 18px;
-
-    gap: 11px;
-
+.primary-button {
+    margin-top: 30px;
+    padding: 11px 17px;
     font-size: 14px;
-    white-space: nowrap;
-  }
+    gap: 10px;
+}
 
-  .primary-button span {
-    position: relative;
-    display: inline-block;
-
+   .primary-button span {
+    font-size: 0;
     width: 20px;
     height: 12px;
-
-    font-size: 0;
+    position: relative;
+    display: inline-block;
   }
 
-  .primary-button span::before {
+   .primary-button span::before {
     content: "";
     position: absolute;
-
     width: 16px;
     height: 2px;
-
+    background: #ff8500;
     right: 0;
     top: 5px;
-
     border-radius: 2px;
-    background: #ff8500;
   }
 
-  .primary-button span::after {
+   .primary-button span::after {
     content: "";
     position: absolute;
-
     width: 6px;
     height: 6px;
-
-    right: 0;
-    top: 3px;
-
     border-top: 2px solid #ff8500;
     border-right: 2px solid #ff8500;
-
     transform: rotate(45deg);
+    right: 0;
+    top: 3px;
   }
 
+   
+/* =========================
+   INTRODUCTIE — MOBIEL
+========================= */
 
-  /* ---------- INTRODUCTIE ---------- */
 
-  .intro-section {
+.intro-section {
     position: relative;
+    padding: 88px 20px 46px;
+    margin-top: -26px;
 
-    margin-top: 0;
-    padding: 42px 20px 46px;
-
-    background:
-      linear-gradient(
+    background: linear-gradient(
         180deg,
-        #f7f8fb 0%,
-        #fbfcfe 18%,
-        #ffffff 58%
-      );
-  }
+        rgba(241, 243, 248, 0) 0%,
+        rgba(247, 249, 252, 0.75) 18px,
+        #fbfcfe 32%,
+        #ffffff 68%
+    );
+}
 
-  .intro-inner {
+.intro-inner {
     width: 100%;
     max-width: none;
     margin: 0;
     padding: 30px 24px 32px;
 
     background:
-      radial-gradient(
-        circle at 0% 0%,
-        rgba(76, 213, 235, 0.16) 0%,
-        rgba(76, 213, 235, 0.06) 28%,
-        rgba(255, 255, 255, 0) 55%
-      ),
-      rgba(255, 255, 255, 0.97);
+        radial-gradient(
+            circle at 0% 0%,
+            rgba(76, 213, 235, 0.16) 0%,
+            rgba(76, 213, 235, 0.06) 28%,
+            rgba(255, 255, 255, 0) 55%
+        ),
+        rgba(255, 255, 255, 0.97);
 
     border: 1px solid rgba(8, 39, 93, 0.10);
     border-radius: 28px;
 
-    box-shadow: 0 14px 32px rgba(8, 39, 93, 0.09);
+    box-shadow:
+        0 14px 32px rgba(8, 39, 93, 0.09);
 
     text-align: left;
-  }
+}
 
-  .intro-inner h2 {
+.intro-inner h2 {
     margin: 0 0 22px;
 
-    color: #08275d;
     font-size: 28px;
     line-height: 1.12;
-    font-weight: 800;
     letter-spacing: -1px;
-  }
+}
 
-  .intro-text {
+ .intro-text {
     width: 100%;
     max-width: none;
     margin: 0;
 
-    color: #5f6f82;
     font-size: 15px;
     line-height: 1.65;
     font-weight: 400;
+    color: #5f6f82;
     text-align: left;
-  }
+ }
+    
 }
