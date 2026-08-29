@@ -336,9 +336,8 @@ body {
     transform: none;
 }
 
-   .hero-second-line {
-    display: block;
-    margin-left: 15px;
+   .hero-focus {
+    color: #173f70;
    }
    
    .hero-emphasis {
