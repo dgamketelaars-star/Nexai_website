@@ -254,7 +254,7 @@ body {
   }
 
   .hero {
-    padding-top: 60px;
+    padding-top: 0px;
     box-sizing: content-box;
 
     background-color: #f7f8fb;
