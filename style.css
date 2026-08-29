@@ -263,13 +263,13 @@ body {
 
   .hero {
     width: 100%;
-    min-height: 0;
+    height: auto;
     aspect-ratio: 4 / 3 ;
 
     background-image: url("assets/images/nexai-hero-mobile (1).jpeg");
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
   }
 
    .hero {
