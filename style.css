@@ -308,7 +308,7 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 38px;
+    font-size: 40px;
     line-height: 1.01;
     letter-spacing: -1.5px;
     margin: 0;
@@ -324,7 +324,7 @@ body {
 
 .hero-content p {
     margin: 50px 0 0;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 450;
     line-height: 1.20;
     transform: none;
@@ -338,7 +338,7 @@ body {
 .primary-button {
     margin-top: 40px;
     padding: 11px 17px;
-    font-size: 15px;
+    font-size: 16px;
     gap: 10px;
 }
 
