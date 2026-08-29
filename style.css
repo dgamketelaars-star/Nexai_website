@@ -330,6 +330,11 @@ body {
     transform: none;
 }
 
+   .hero-text-gap {
+    display: block;
+    height: 12px;
+   }
+
 .primary-button {
     margin-top: 22px;
     padding: 11px 17px;
