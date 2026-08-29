@@ -301,14 +301,14 @@ body {
 }
 
 .hero-content {
-    width: 85%;
+    width: 95%;
     max-width: none;
     padding-top: -20px;
     transform: none;
 }
 
 .hero-content h1 {
-    font-size: 38.5px;
+    font-size: 39px;
     line-height: 1.01;
     letter-spacing: -1.5px;
     margin: 0;
