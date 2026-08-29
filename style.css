@@ -315,6 +315,10 @@ body {
     transform: translateY(-10px);
 }
 
+   .orange-dot {
+    color: #ff8500;
+}
+
 .hero-accent {
     width: 48px;
     height: 4px;
