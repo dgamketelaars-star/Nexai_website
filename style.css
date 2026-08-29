@@ -335,6 +335,11 @@ body {
     color: #52677f;
     transform: none;
 }
+
+   .hero-second-line {
+    display: block;
+    margin-left: 15px;
+   }
    
    .hero-emphasis {
     font-weight: 600
