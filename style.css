@@ -269,7 +269,7 @@ body {
     background-image: url("assets/images/nexai-hero-mobile (1).jpeg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100% 100%;
+    background-size: cover;
   }
 
    .hero {
