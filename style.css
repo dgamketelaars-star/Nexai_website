@@ -270,7 +270,7 @@ body {
     background-image: url("assets/images/20260830_165943_0000.jpeg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
 
    .hero {
