@@ -309,10 +309,10 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 39.5px;
+    font-size: 40px;
     line-height: 1.01;
     letter-spacing: -1.5px;
-    margin-top: 120px;
+    margin-top: 100px;
     transform: translateY(-10px);
 }
 
@@ -323,15 +323,15 @@ body {
 .hero-accent {
     width: 48px;
     height: 4px;
-    margin: 3px 0 0;
+    margin: 5px 0 0;
     transform: none;
 }
 
 .hero-content p {
-    margin: 50px 0 0;
-    font-size: 16px;
-    font-weight: 350;
-    line-height: 1.18;
+    margin: 70px 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.05;
     letter-spacing: 0px;
     color: #52677f;
     transform: none;
@@ -348,11 +348,11 @@ body {
 
    .hero-text-gap {
     display: block;
-    height: 8px;
+    height: 7px;
    }
 
 .primary-button {
-    margin-top: 60px;
+    margin-top: 70px;
     padding: 11px 17px;
     font-size: 16px;
     gap: 10px;
