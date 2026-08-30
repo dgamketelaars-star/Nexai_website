@@ -328,21 +328,21 @@ body {
 }
 
 .hero-content p {
-    margin: 20px 0 0;
+    margin: 30px 0 0;
     font-size: 19px;
-    font-weight: 500;
-    line-height: 1.15;
+    font-weight: 450;
+    line-height: 1.25;
     letter-spacing: 0px;
     color: #52677f;
     transform: none;
 }
 
    .hero-focus {
-    font-weight: 650;
+    font-weight: 600;
    }
    
    .hero-emphasis {
-    font-weight: 650
+    font-weight: 600
     color: #0b356f;
    }
 
