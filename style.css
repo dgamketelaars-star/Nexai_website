@@ -302,7 +302,7 @@ body {
 }
 
 .hero-content {
-    width: 95%;
+    width: 80%;
     max-width: none;
     padding-top: -20px;
     transform: none;
@@ -312,7 +312,7 @@ body {
     font-size: 43px;
     line-height: 1.01;
     letter-spacing: -1.5px;
-    margin-top: 80px;
+    margin-top: 50px;
     transform: translateY(-10px);
 }
 
