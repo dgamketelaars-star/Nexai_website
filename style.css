@@ -312,7 +312,7 @@ body {
     font-size: 39.5px;
     line-height: 1.01;
     letter-spacing: -1.5px;
-    margin-top: 50px;
+    margin-top: 60px;
     transform: translateY(-10px);
 }
 
@@ -352,7 +352,7 @@ body {
    }
 
 .primary-button {
-    margin-top: 40px;
+    margin-top: 50px;
     padding: 11px 17px;
     font-size: 16px;
     gap: 10px;
