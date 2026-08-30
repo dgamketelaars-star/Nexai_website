@@ -265,7 +265,7 @@ body {
     width: 100%;
     height: auto;
     min-height: 0;
-    aspect-ratio: 1/ 1;
+    aspect-ratio: 3/ 4;
 
     background-image: url("assets/images/nexai_mobile_hero.png");
     background-repeat: no-repeat;
