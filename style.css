@@ -330,7 +330,7 @@ body {
 .hero-content p {
     margin: 20px 0 0;
     font-size: 19px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.15;
     letter-spacing: 0px;
     color: #52677f;
@@ -338,11 +338,11 @@ body {
 }
 
    .hero-focus {
-    font-weight: 550;
+    font-weight: 650;
    }
    
    .hero-emphasis {
-    font-weight: 550
+    font-weight: 650
     color: #0b356f;
    }
 
