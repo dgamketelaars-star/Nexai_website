@@ -265,7 +265,7 @@ body {
     width: 100%;
     height: auto;
     min-height: 0;
-    aspect-ratio: 4/ 5;
+    aspect-ratio: 1/ 1;
 
     background-image: url("assets/images/20260830_165943_0000.jpeg");
     background-repeat: no-repeat;
