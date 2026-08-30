@@ -309,10 +309,10 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 42.7px;
+    font-size: 43px;
     line-height: 1.01;
     letter-spacing: -1.5px;
-    margin-top: 80px;
+    margin-top: 70px;
     transform: translateY(-10px);
 }
 
