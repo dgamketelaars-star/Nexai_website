@@ -312,7 +312,7 @@ body {
     font-size: 39px;
     line-height: 1.01;
     letter-spacing: -1.5px;
-    margin-top: 60px;
+    margin-top: 50px;
     transform: translateY(-10px);
 }
 
@@ -328,7 +328,7 @@ body {
 }
 
 .hero-content p {
-    margin: 40px 0 0;
+    margin: 50px 0 0;
     font-size: 16px;
     font-weight: 350;
     line-height: 1.18;
@@ -352,7 +352,7 @@ body {
    }
 
 .primary-button {
-    margin-top: 25px;
+    margin-top: 40px;
     padding: 11px 17px;
     font-size: 16px;
     gap: 10px;
