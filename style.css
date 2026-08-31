@@ -208,16 +208,18 @@ body {
     content: "";
     position: absolute;
     z-index: -1;
-    right: -60px;
-    bottom: -160px;
-    width: 220px;
-    height: 190px;
+    right: -140px;
+    bottom: -130px;
+    width: 420px;
+    height: 380px;
 
-    background: #ff8500;
-    opacity: 0.94;
-    border-radius: 61% 39% 58% 42% / 44% 52% 48% 56%;
-    transform: rotate(9deg);
-    box-shadow: 0 0 90px 16px rgba(255, 133, 0, 0.35);
+    background: radial-gradient(
+        circle at 100% 100%,
+        rgba(255, 133, 0, 0.55) 0%,
+        rgba(255, 133, 0, 0.28) 10%,
+        rgba(255, 133, 0, 0.08) 25%,
+        rgba(255, 133, 0, 0) 45%
+    );
 
     pointer-events: none;
 }
@@ -445,11 +447,10 @@ body {
 }
 
 .intro-inner::before {
-    right: -20px;
-    bottom: -108px;
-    width: 150px;
-    height: 135px;
-    box-shadow: 0 0 55px 10px rgba(255, 133, 0, 0.32);
+    right: -70px;
+    bottom: -65px;
+    width: 260px;
+    height: 230px;
 }
 
 .intro-inner h2 {
