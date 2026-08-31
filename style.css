@@ -281,7 +281,11 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(225, 242, 255, 0.10);
+    background: linear-gradient(
+        180deg,
+        rgba(8, 39, 93, 0.015) 0%,
+        rgba(8, 39, 93, 0.065) 100%
+    );
     pointer-events: none;
     z-index: 1;
    }
@@ -418,8 +422,8 @@ body {
     background:
         radial-gradient(
             circle at 0% 0%,
-            rgba(76, 213, 235, 0.16) 0%,
-            rgba(76, 213, 235, 0.06) 28%,
+            rgba(8, 39, 93, 0.08) 0%,
+            rgba(8, 39, 93, 0.03) 28%,
             rgba(255, 255, 255, 0) 55%
         ),
         rgba(255, 255, 255, 0.97);
