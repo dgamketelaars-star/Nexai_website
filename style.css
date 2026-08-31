@@ -428,6 +428,11 @@ body {
     margin: 0;
     padding: 30px 24px 32px;
 
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+
     text-align: left;
 }
 
