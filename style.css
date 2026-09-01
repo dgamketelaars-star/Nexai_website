@@ -172,109 +172,143 @@ body {
 }
 
  /* =========================
-   INTRODUCTIE
+   INTRODUCTIE — editorial compositie
 ========================= */
 
 .intro-section {
-    padding: 96px 40px;
+    padding: 128px 40px 104px;
     background: #fdfdfc;
 }
 
 .intro-inner {
-    max-width: 760px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0;
 
-    text-align: center;
+    text-align: left;
 }
 
-.intro-inner h2 {
+.intro-heading {
     margin: 0;
 
     color: #08275d;
-    font-size: 36px;
+    font-size: 38px;
+    line-height: 1.15;
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.intro-heading span {
+    color: #ff8500;
+}
+
+.intro-clash {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    column-gap: 40px;
+
+    margin: 72px 0 0;
+}
+
+.intro-statement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.intro-statement-line {
+    color: #08275d;
+    font-size: 38px;
     line-height: 1.12;
     font-weight: 800;
     letter-spacing: -1px;
 }
 
-.intro-inner h2 span {
-    color: #ff8500;
+.intro-statement-line:nth-child(2) {
+    margin-left: 26px;
 }
 
-.intro-accent {
-    width: 46px;
-    height: 3px;
-
-    margin: 22px auto 0;
-
-    border-radius: 10px;
-    background: #ff8500;
-    opacity: 0.55;
+.intro-statement-line:nth-child(3) {
+    margin-left: 52px;
 }
 
-.intro-statement {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: center;
-    gap: 8px 20px;
+.intro-contrast {
+    align-self: end;
+    margin: 0 0 0 auto;
 
-    max-width: 640px;
-    margin: 46px auto 0;
+    max-width: 420px;
 
     color: #08275d;
-    font-size: 28px;
-    line-height: 1.25;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-}
-
-.intro-highlight {
-    max-width: 560px;
-    margin: 22px auto 0;
-
-    color: #08275d;
-    font-size: 30px;
-    line-height: 1.3;
+    font-size: 24px;
+    line-height: 1.35;
     font-weight: 400;
-    font-style: italic;
-    letter-spacing: -0.3px;
+    text-align: right;
+}
+
+.intro-contrast-emphasis {
+    font-weight: 800;
+}
+
+.intro-dot {
+    color: #ff8500;
+    font-weight: 800;
 }
 
 .intro-text {
-    max-width: 680px;
-    margin: 40px auto 0;
+    max-width: 640px;
+    margin: 88px 0 0 44px;
 
-    color: #56698a;
+    color: #33507a;
     font-size: 17px;
     line-height: 1.7;
     font-weight: 400;
+    text-align: left;
+}
+
+.intro-text strong {
+    color: #08275d;
+    font-weight: 700;
 }
 
 .intro-closing {
-    max-width: 620px;
-    margin: 52px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin: 92px 0 0;
+    text-align: right;
 }
 
 .intro-closing-sub {
-    display: block;
+    margin: 0;
 
     color: #56698a;
-    font-size: 16px;
-    line-height: 1.4;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .intro-closing-main {
-    display: block;
-    margin-top: 6px;
+    margin: 12px 0 0;
+    max-width: 480px;
 
     color: #08275d;
-    font-size: 30px;
-    line-height: 1.25;
+    font-size: 36px;
+    line-height: 1.2;
     font-weight: 800;
     letter-spacing: -0.5px;
+}
+
+.intro-closing-mark {
+    width: 2px;
+    height: 38px;
+    margin-top: 26px;
+
+    background: linear-gradient(180deg, rgba(255, 133, 0, 0.55), rgba(255, 133, 0, 0));
 }
 
 /* SMART-kaart bestaat voorlopig alleen op mobiel */
@@ -456,15 +490,15 @@ body {
 
    
 /* =========================
-   INTRODUCTIE — MOBIEL
+   INTRODUCTIE — MOBIEL — editorial compositie
 ========================= */
 
 
 .intro-section {
     position: relative;
-    padding: 44px 22px 36px;
+    padding: 48px 24px 40px;
 
-    background: #fdfdfc;
+    background: linear-gradient(180deg, #fdfdfc 0%, #fdfdfc 84%, #f8f9fb 100%);
 }
 
 .intro-inner {
@@ -473,90 +507,117 @@ body {
     margin: 0;
     padding: 0;
 
-    text-align: center;
+    text-align: left;
 }
 
-.intro-inner h2 {
+.intro-heading {
     margin: 0;
 
     color: #08275d;
-    font-size: 26px;
-    line-height: 1.1;
-    letter-spacing: -1px;
+    font-size: 25px;
+    line-height: 1.16;
+    letter-spacing: -0.8px;
+    text-align: center;
 }
 
-.intro-accent {
-    width: 36px;
-    height: 3px;
-
-    margin: 14px auto 0;
-
-    border-radius: 10px;
-    background: #ff8500;
-    opacity: 0.55;
+.intro-clash {
+    margin: 40px 0 0;
 }
 
 .intro-statement {
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: center;
-    gap: 4px 12px;
-
-    margin: 26px auto 0;
-
-    color: #08275d;
-    font-size: 19px;
-    line-height: 1.3;
-    font-weight: 700;
-    letter-spacing: -0.3px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
 }
 
-.intro-highlight {
-    margin: 16px auto 0;
+.intro-statement-line {
+    color: #08275d;
+    font-size: 22px;
+    line-height: 1.22;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+.intro-statement-line:nth-child(2) {
+    margin-left: 8px;
+}
+
+.intro-statement-line:nth-child(3) {
+    margin-left: 16px;
+}
+
+.intro-contrast {
+    margin: 26px 0 0 18%;
 
     color: #08275d;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1.32;
     font-weight: 400;
-    font-style: italic;
-    letter-spacing: -0.2px;
+    text-align: right;
+}
+
+.intro-contrast-emphasis {
+    font-weight: 800;
+}
+
+.intro-dot {
+    color: #ff8500;
+    font-weight: 800;
 }
 
 .intro-text {
-    width: 100%;
-    max-width: none;
-    margin: 22px auto 0;
+    max-width: 86%;
+    margin: 34px 0 0 4%;
 
     font-size: 15px;
-    line-height: 1.55;
+    line-height: 1.6;
     font-weight: 400;
-    color: #5b7396;
-    text-align: center;
+    color: #4a628c;
+    text-align: left;
+}
+
+.intro-text strong {
+    color: #08275d;
+    font-weight: 700;
 }
 
 .intro-closing {
-    margin: 28px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin: 36px 0 0;
+    text-align: right;
 }
 
 .intro-closing-sub {
-    display: block;
+    margin: 0;
 
     color: #5b7396;
-    font-size: 14px;
-    line-height: 1.4;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
 .intro-closing-main {
-    display: block;
-    margin-top: 4px;
+    margin: 8px 0 0;
+    max-width: 78%;
 
     color: #08275d;
-    font-size: 21px;
-    line-height: 1.28;
+    font-size: 22px;
+    line-height: 1.26;
     font-weight: 800;
     letter-spacing: -0.4px;
+}
+
+.intro-closing-mark {
+    width: 2px;
+    height: 22px;
+    margin-top: 14px;
+
+    background: linear-gradient(180deg, rgba(255, 133, 0, 0.55), rgba(255, 133, 0, 0));
 }
 
 /* =========================
