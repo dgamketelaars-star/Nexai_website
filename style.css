@@ -367,6 +367,7 @@ body {
     pointer-events: none;
 
     background:
+        linear-gradient(rgba(225, 235, 243, 0.10), rgba(225, 235, 243, 0.10)),
         linear-gradient(
             140deg,
             rgba(255, 255, 255, 0.30) 0%,
@@ -382,9 +383,9 @@ body {
             rgba(224, 232, 242, 0.10) 100%
         ),
         url("assets/images/nexai-hero-puzzle.png");
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: center, center, center;
-    background-size: cover, cover, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: center, center, center, center;
+    background-size: cover, cover, cover, cover;
   }
 
   .hero-inner {
