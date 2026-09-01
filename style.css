@@ -415,28 +415,23 @@ body {
 
 .intro-section {
     position: relative;
-    padding: 26px 20px 34px;
+    padding: 18px 20px 24px;
 
-    background: linear-gradient(
-        to bottom,
-        #102844 0%,
-        #17608A 50%,
-        #102844 100%
-    );
+    background: #fafafa;
 }
 
 .intro-inner {
     width: 100%;
     max-width: none;
     margin: 0;
-    padding: 18px 24px 22px;
+    padding: 12px 14px 14px;
 
     background: none;
     border: none;
     border-radius: 0;
     box-shadow: none;
 
-    text-align: left;
+    text-align: center;
 }
 
 .intro-inner::before {
@@ -444,9 +439,9 @@ body {
 }
 
 .intro-inner h2 {
-    margin: 0 0 14px;
+    margin: 0 0 10px;
 
-    color: #f7f5f1;
+    color: #08275d;
     font-size: 25px;
     line-height: 1.08;
     letter-spacing: -1px;
@@ -460,8 +455,8 @@ body {
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
-    color: #a9b8cf;
-    text-align: left;
+    color: #173766;
+    text-align: center;
  }
 
 /* =========================
