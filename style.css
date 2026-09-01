@@ -417,7 +417,7 @@ body {
     position: relative;
     padding: 18px 20px 24px;
 
-    background: #fafafa;
+    background: #fdfdfc;
 }
 
 .intro-inner {
@@ -439,10 +439,10 @@ body {
 }
 
 .intro-inner h2 {
-    margin: 0 0 10px;
+    margin: 60 0 10px;
 
     color: #08275d;
-    font-size: 25px;
+    font-size: 28px;
     line-height: 1.08;
     letter-spacing: -1px;
 }
@@ -450,10 +450,10 @@ body {
  .intro-text {
     width: 100%;
     max-width: none;
-    margin: 0;
+    margin: 5;
 
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 15px;
+    line-height: 1.2;
     font-weight: 400;
     color: #173766;
     text-align: center;
