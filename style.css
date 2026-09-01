@@ -450,7 +450,7 @@ body {
  .intro-text {
     width: 100%;
     max-width: none;
-    margin: 0;
+    margin: 20;
 
     font-size: 14px;
     line-height: 1.2;
