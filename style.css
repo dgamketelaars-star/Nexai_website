@@ -413,10 +413,10 @@ body {
     padding: 26px 20px 34px;
 
     background: linear-gradient(
-        90deg,
+        to bottom,
         #102844 0%,
-        #123552 55%,
-        #153D5C 100%
+        #123E68 50%,
+        #17608A 100%
     );
 }
 
