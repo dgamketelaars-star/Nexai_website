@@ -415,8 +415,8 @@ body {
     background: linear-gradient(
         to bottom,
         #102844 0%,
-        #123E68 50%,
-        #17608A 100%
+        #17608A 50%,
+        #102844 100%
     );
 }
 
