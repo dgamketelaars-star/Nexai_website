@@ -176,7 +176,7 @@ body {
 ========================= */
 
 .intro-section {
-    padding: 100px 40px 88px;
+    padding: 88px 40px 76px;
     background: #fdfdfc;
 }
 
@@ -213,54 +213,26 @@ body {
     background: #ff8500;
 }
 
-.intro-lead {
-    margin: 48px 0 0;
+.intro-lead,
+.intro-text,
+.intro-closing {
+    margin: 24px 0 0;
 
-    font-size: 22px;
-    line-height: 1.55;
-}
-
-.intro-lead-strong {
-    color: #08275d;
-    font-weight: 700;
-}
-
-.intro-lead-soft {
     color: #4a628c;
-    font-weight: 400;
-}
-
-.intro-text {
-    margin: 28px 0 0;
-
-    color: #56698a;
     font-size: 18px;
     line-height: 1.7;
     font-weight: 400;
 }
 
-.intro-text strong {
-    color: #143a72;
-    font-weight: 600;
+.intro-lead {
+    margin-top: 36px;
 }
 
-.intro-closing {
-    margin: 40px 0 0;
-
-    color: #4a628c;
-    font-size: 20px;
-    line-height: 1.6;
-    font-weight: 400;
-}
-
-.intro-closing-strong {
+.intro-lead strong,
+.intro-text strong,
+.intro-closing strong {
     color: #08275d;
     font-weight: 700;
-}
-
-.intro-closing-emphasis {
-    color: #08275d;
-    font-weight: 600;
 }
 
 .intro-dot {
@@ -488,54 +460,26 @@ body {
     background: #ff8500;
 }
 
-.intro-lead {
-    margin: 28px 0 0;
+.intro-lead,
+.intro-text,
+.intro-closing {
+    margin: 18px 0 0;
 
-    font-size: 18px;
-    line-height: 1.48;
-}
-
-.intro-lead-strong {
-    color: #08275d;
-    font-weight: 700;
-}
-
-.intro-lead-soft {
     color: #4a628c;
-    font-weight: 400;
-}
-
-.intro-text {
-    margin: 22px 0 0;
-
     font-size: 16px;
     line-height: 1.6;
     font-weight: 400;
-    color: #5b7396;
 }
 
-.intro-text strong {
-    color: #173766;
-    font-weight: 600;
+.intro-lead {
+    margin-top: 26px;
 }
 
-.intro-closing {
-    margin: 28px 0 0;
-
-    color: #4a628c;
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 400;
-}
-
-.intro-closing-strong {
+.intro-lead strong,
+.intro-text strong,
+.intro-closing strong {
     color: #08275d;
     font-weight: 700;
-}
-
-.intro-closing-emphasis {
-    color: #08275d;
-    font-weight: 600;
 }
 
 .intro-dot {
