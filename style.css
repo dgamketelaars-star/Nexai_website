@@ -539,13 +539,19 @@ body {
 .category-visual {
     width: 84%;
     max-width: 300px;
-    margin: 0 auto 26px;
+
+    height: 240px;          /* hiermee bepaal je hoeveel hoogte overblijft */
+    overflow: hidden;       /* alles erbuiten wordt afgesneden */
+
+    margin: -10px auto 12px;
 }
 
 .category-visual img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .category-features {
@@ -582,13 +588,8 @@ body {
     font-weight: 700;
 }
 
-.category-feature-text {
-    margin: 0;
-
-    color: #5f6f82;
-    font-size: 11px;
-    line-height: 1.35;
-    font-weight: 400;
+..category-feature-text {
+    display: none;
 }
 
 .category-cta {
