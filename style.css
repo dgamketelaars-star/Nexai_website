@@ -411,21 +411,16 @@ body {
 
 .intro-section {
     position: relative;
-    padding: 40px 20px 46px;
+    padding: 50px 20px 34px;
 
-    background: linear-gradient(
-        135deg,
-        #fffdfb 0%,
-        #fff8f0 55%,
-        #fdf1e3 100%
-    );
+    background: #102844;
 }
 
 .intro-inner {
     width: 100%;
     max-width: none;
     margin: 0;
-    padding: 30px 24px 32px;
+    padding: 32px 24px 22px;
 
     background: none;
     border: none;
@@ -440,10 +435,11 @@ body {
 }
 
 .intro-inner h2 {
-    margin: 0 0 22px;
+    margin: 0 0 14px;
 
-    font-size: 28px;
-    line-height: 1.12;
+    color: #f7f5f1;
+    font-size: 25px;
+    line-height: 1.08;
     letter-spacing: -1px;
 }
 
@@ -452,10 +448,10 @@ body {
     max-width: none;
     margin: 0;
 
-    font-size: 15px;
-    line-height: 1.65;
+    font-size: 14px;
+    line-height: 1.5;
     font-weight: 400;
-    color: #4e5b6b;
+    color: #a9b8cf;
     text-align: left;
  }
     
