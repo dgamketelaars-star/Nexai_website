@@ -292,8 +292,8 @@ body {
   .hero {
     width: 100%;
     height: auto;
-    min-height: 0;
-    aspect-ratio: 4 / 5;
+    min-height: 430px;
+    aspect-ratio: 1122 / 1243;
 
     background-image: url("assets/images/nexai-hero-puzzle.png");
     background-repeat: no-repeat;
