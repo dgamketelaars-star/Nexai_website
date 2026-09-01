@@ -303,6 +303,8 @@ body {
 
    .hero {
     position: relative;
+    filter: brightness(1.03);
+    background: rgba(220, 235, 250, 0.06);
   }
 
    .hero-inner {
