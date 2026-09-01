@@ -248,6 +248,11 @@ body {
     font-weight: 400;
 }
 
+/* SMART-kaart bestaat voorlopig alleen op mobiel */
+.smart-section {
+    display: none;
+}
+
 /* =========================
    MOBIEL
    ========================= */
@@ -458,5 +463,156 @@ body {
     color: #a9b8cf;
     text-align: left;
  }
-    
+
+/* =========================
+   SMART — MOBIEL
+========================= */
+
+.smart-section {
+    display: block;
+
+    padding: 28px 20px 40px;
+
+    background: #f6f7fa;
+}
+
+.category-card {
+    width: 100%;
+    max-width: 100%;
+
+    padding: 30px 22px 26px;
+
+    background: #ffffff;
+    border-radius: 26px;
+    box-shadow: 0 10px 28px rgba(8, 39, 93, 0.07);
+
+    text-align: left;
+}
+
+.category-eyebrow {
+    margin: 0 0 4px;
+
+    color: #ff8500;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.category-title {
+    margin: 0 0 12px;
+
+    color: #08275d;
+    font-size: 46px;
+    line-height: 0.95;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+}
+
+.category-tagline {
+    margin: 0;
+
+    color: #173766;
+    font-size: 17px;
+    line-height: 1.35;
+    font-weight: 600;
+}
+
+.category-accent {
+    width: 48px;
+    height: 4px;
+
+    margin: 14px 0 16px;
+
+    border-radius: 10px;
+    background: #ff8500;
+}
+
+.category-text {
+    margin: 0 0 22px;
+
+    color: #4e5b6b;
+    font-size: 15px;
+    line-height: 1.55;
+    font-weight: 400;
+}
+
+.category-visual {
+    width: 84%;
+    max-width: 300px;
+    margin: 0 auto 26px;
+}
+
+.category-visual img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.category-features {
+    display: flex;
+    align-items: flex-start;
+
+    margin: 0 0 26px;
+}
+
+.category-feature {
+    flex: 1 1 0;
+
+    padding: 0 6px;
+
+    text-align: center;
+}
+
+.category-feature + .category-feature {
+    border-left: 1px solid rgba(8, 39, 93, 0.12);
+}
+
+.category-feature-icon {
+    width: 26px;
+    height: 26px;
+    margin: 0 auto 8px;
+}
+
+.category-feature-title {
+    margin: 0 0 4px;
+
+    color: #08275d;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.category-feature-text {
+    margin: 0;
+
+    color: #5f6f82;
+    font-size: 11px;
+    line-height: 1.35;
+    font-weight: 400;
+}
+
+.category-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    width: 100%;
+    padding: 15px 20px;
+
+    border-radius: 999px;
+    background: #06245a;
+
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.category-cta span {
+    color: #ff8500;
+    font-size: 19px;
+}
+
 }
