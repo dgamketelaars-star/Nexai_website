@@ -245,6 +245,11 @@ body {
     display: none;
 }
 
+/* Voordelenblok met iconen bestaat voorlopig alleen op mobiel */
+.intro-benefits {
+    display: none;
+}
+
 /* =========================
    MOBIEL
    ========================= */
@@ -454,11 +459,62 @@ body {
     display: none;
 }
 
-.intro-lead,
+.intro-benefits {
+    position: relative;
+
+    display: block;
+    margin: 30px 0 0;
+    padding-left: 18px;
+}
+
+.intro-benefits::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 4px;
+
+    border-radius: 999px;
+    background: #ff8500;
+}
+
+.intro-benefit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 14px 0;
+}
+
+.intro-benefit + .intro-benefit {
+    border-top: 1px solid rgba(8, 39, 93, 0.08);
+}
+
+.intro-benefit svg {
+    flex: 0 0 auto;
+
+    width: 28px;
+    height: 28px;
+
+    color: #08275d;
+}
+
+.intro-benefit span {
+    color: #08275d;
+    font-size: 18px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.intro-lead {
+    display: none;
+}
+
 .intro-text,
 .intro-closing {
-    margin: 8px 0 0;
-    padding-left: 20px;
+    margin: 24px 0 0;
 
     color: #4a628c;
     font-size: 16px;
@@ -466,30 +522,14 @@ body {
     font-weight: 400;
 }
 
-.intro-lead {
-    position: relative;
-
-    margin-top: 24px;
-}
-
-.intro-lead::before {
-    content: "";
-    position: absolute;
-    top: 4px;
-    left: 0;
-
-    width: 4px;
-    height: 120px;
-
-    border-radius: 999px;
-    background: #ff8500;
-}
-
-.intro-lead strong,
 .intro-text strong,
 .intro-closing strong {
     color: #4a628c;
     font-weight: 400;
+}
+
+.intro-desktop-only {
+    display: none;
 }
 
 .intro-dot {
