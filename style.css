@@ -426,7 +426,7 @@ body {
 
 .intro-section {
     position: relative;
-    padding: 44px 24px 40px;
+    padding: 62px 24px 40px;
 
     background: linear-gradient(180deg, #fdfdfc 0%, #fdfdfc 84%, #f8f9fb 100%);
 }
@@ -444,7 +444,7 @@ body {
     margin: 0;
 
     color: #08275d;
-    font-size: 25px;
+    font-size: 29px;
     line-height: 1.18;
     letter-spacing: -0.6px;
     text-align: center;
@@ -462,7 +462,7 @@ body {
 
     color: #4a628c;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.5;
     font-weight: 400;
 }
 
@@ -478,8 +478,8 @@ body {
     top: 4px;
     left: 0;
 
-    width: 3px;
-    height: 56px;
+    width: 4px;
+    height: 120px;
 
     border-radius: 999px;
     background: #ff8500;
