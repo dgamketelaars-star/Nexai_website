@@ -451,19 +451,14 @@ body {
 }
 
 .intro-accent {
-    width: 46px;
-    height: 3px;
-
-    margin: 16px auto 0;
-
-    border-radius: 999px;
-    background: #ff8500;
+    display: none;
 }
 
 .intro-lead,
 .intro-text,
 .intro-closing {
-    margin: 18px 0 0;
+    margin: 8px 0 0;
+    padding-left: 20px;
 
     color: #4a628c;
     font-size: 16px;
@@ -472,14 +467,29 @@ body {
 }
 
 .intro-lead {
-    margin-top: 26px;
+    position: relative;
+
+    margin-top: 24px;
+}
+
+.intro-lead::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 0;
+
+    width: 3px;
+    height: 56px;
+
+    border-radius: 999px;
+    background: #ff8500;
 }
 
 .intro-lead strong,
 .intro-text strong,
 .intro-closing strong {
-    color: #08275d;
-    font-weight: 700;
+    color: #4a628c;
+    font-weight: 400;
 }
 
 .intro-dot {
